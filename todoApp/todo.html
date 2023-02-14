@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+  <section class="main">
+    <article class="header">
+      <div class="header-wrapper">
+        <div class="theme">
+            <div class="header-text">
+                <p>TODO</p>
+            </div>
+            <div class="header-theme">
+                <img src="todoimages/logo1.png" alt="theme changer">
+            </div>
+           </div>
+           <span class="danger" id="msg"></span>
+           <span class="success" id="msg"></span>
+           <div class="header-input">
+          <div class="header-inner">
+                <div class="input">
+                    <form class="form">
+                        <input type="text" id="todo-input" placeholder="create a new todo...">
+                    </form>
+               </div>
+            </div>
+            </div>
+        </div>  
+      </div>
+
+      <ul class="todo-output">
+            <li class="todo-item">
+                <p>welcome</p>
+                <button class="todo-remove">X</button>
+        </ul>
+    </article>
+    </section>
+      
+    <script src="todo.js"></script>
+</body>
+</html>
